@@ -102,7 +102,7 @@ function Bird (heightGame) {
   let flying = false
 
   this.element = newElement('img', 'bird')
-  this.element.src = 'imgs/bird.png'
+  this.element.src = 'bird.png'
 
   this.getYPosition = () => parseInt(this.element.style.bottom.split('px')[0])
   this.setYPosition = y => this.element.style.bottom = `${y}px`
